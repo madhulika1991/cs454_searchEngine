@@ -56,6 +56,9 @@ public class MetaFetch {
 			System.out.println("Usage:java -jar extractor.jar -c <control file>");
 		}
 		}catch(Exception e){
+     file.flush();
+     file.close();
+     System.out.println(\n\n\n[kn[k[ojmeta dtata extraction done is check whtat the provlrm is]]])
 			e.printStackTrace();
 		}
 		
