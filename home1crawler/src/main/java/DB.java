@@ -18,7 +18,7 @@ public class DB {
 			System.out.println("conn built");
 		} catch (SQLException e) {
 			e.printStackTrace();
-		} catch (ClassNotFoundException e) {bxkabxkahkcjhascnkshksckhghhkagifhajclhcahchjh
+		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}
 	}
