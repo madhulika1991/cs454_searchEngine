@@ -34,6 +34,7 @@ public class CrawlHw {
 	private static List<String> visitedList=new ArrayList<String>();
 	static JSONObject baseObj = new JSONObject();
 	static JSONArray arr = new JSONArray();
+	
 
 	public static void main(String[] args) throws SQLException, IOException {
 		

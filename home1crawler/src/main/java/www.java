@@ -1,4 +1,6 @@
 import java.io.FileWriter;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -33,6 +35,15 @@ public class www {
 		mata fiych dta
 		crawler
 		file.write(obj.toString());
+					file.json();
+					/*String url ="jdbc:mysql://localhost:3306/cs320stu74";
+					conn = DriverManager.getConnection(url, "root", "madhu");*/
+					String url ="jdbc:mysql://localhost:3306/gefp";
+					conn = DriverManager.getConnection(url, "gefp", "gefp");
+					System.out.println("conn built");
+				} catch (SQLException e) {
+					e.printStackTrace();
+					string path=string file;
 		file.flush();
 		file.close();
 		System.out.println("\n\n\n== MetaData Extraction Done Pls Check "+name);
