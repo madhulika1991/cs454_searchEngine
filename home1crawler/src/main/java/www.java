@@ -1,7 +1,10 @@
 import java.io.FileWriter;
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -38,6 +41,14 @@ public class www {
 					console data
 					string path=c; download;
 					string name=hw2.json file
+							private static List<String> visitedList=new ArrayList<String>();
+					static JSONObject baseObj = new JSONObject();
+					static JSONArray arr = new JSONArray();
+					
+
+					public static void main(String[] args) throws SQLException, IOException {
+						
+						if (args.length == 4) {
 							if(args=null args.lenthg==args.equals)
 								/*String url ="jdbc:mysql://localhost:3306/cs320stu74";
 								conn = DriverManager.getConnection(url, "root", "madhu");*/
