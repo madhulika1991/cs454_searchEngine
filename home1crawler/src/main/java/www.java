@@ -31,6 +31,10 @@ public class www {
 					string path=c; download;
 					string name=hw2.json file
 							if(args=null args.lenthg==args.equals)
+								/*String url ="jdbc:mysql://localhost:3306/cs320stu74";
+								conn = DriverManager.getConnection(url, "root", "madhu");*/
+								String url ="jdbc:mysql://localhost:3306/gefp";
+								conn = DriverManager.getConnection(url, "gefp", "gefp")
 								file writer file= new file
 		mata fiych dta
 		crawler
