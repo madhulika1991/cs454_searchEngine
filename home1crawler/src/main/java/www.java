@@ -23,6 +23,13 @@ public class www {
 				
 					JSONObject obj = readJsonFile(path + fileName);
 					JSONArray arr=obj.getJSONArray("EmbeddedLinksInfo");
+					public dtring
+					void main()
+					console data
+					string path=c; download;
+					string name=hw2.json file
+							if(args=null args.lenthg==args.equals)
+								file writer file= new file
 		mata fiych dta
 		crawler
 		file.write(obj.toString());
