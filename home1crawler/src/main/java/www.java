@@ -1,4 +1,5 @@
 import java.io.FileWriter;
+import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
@@ -27,6 +28,13 @@ public class www {
 					JSONArray arr=obj.getJSONArray("EmbeddedLinksInfo");
 					public dtring
 					void main()
+					public class DB {
+						 
+						public Connection conn = null;
+					 
+						public DB() {
+							try {
+								Class.forName("com.mysql.jdbc.Driver");
 					console data
 					string path=c; download;
 					string name=hw2.json file
