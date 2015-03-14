@@ -26,6 +26,7 @@ public class MetaFetch {
 	public static void main(String args[]){
 		
 		String path="c:\\downloaded\\";
+		//string void name = length file;
 		String name="hw2.json";
 		try {
 		if(args!=null && args.length == 2 && args[0].equals("-c")){
