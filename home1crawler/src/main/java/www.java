@@ -44,9 +44,12 @@ public class www {
 							private static List<String> visitedList=new ArrayList<String>();
 					static JSONObject baseObj = new JSONObject();
 					static JSONArray arr = new JSONArray();
+					private static List<String> visitedList=new ArrayList<String>();
+					string null = downloaf file;
+					\
 					
 
-					public static void main(String[] args) throws SQLException, IOException {
+public static void main(String[] args) throws SQLException, IOException {
 						
 						if (args.length == 4) {
 							if(args=null args.lenthg==args.equals)
